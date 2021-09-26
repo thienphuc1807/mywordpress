@@ -8,12 +8,12 @@
 	>
 
 <channel>
-	<title>smartphone &#8211; Thiên Phúc</title>
+	<title>smartphone &#8211; CiKey Mobile</title>
 	<atom:link href="http://localhost/myproject/wordpress/tag/smartphone/feed/" rel="self" type="application/rss+xml" />
 	<link>https://thienphuc1807.github.io/mywordpress</link>
-	<description></description>
+	<description>Cửa hàng điện thoại số 1 Việt Nam</description>
 	<lastBuildDate>Thu, 16 Sep 2021 00:32:04 +0000</lastBuildDate>
-	<language>en-US</language>
+	<language>vi</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
