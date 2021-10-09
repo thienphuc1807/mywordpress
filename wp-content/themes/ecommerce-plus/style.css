@@ -4,7 +4,7 @@ Author: ceylonthemes
 Author URI: https://ceylonthemes.com
 Theme URI: https://www.ceylonthemes.com/product/wordpress-ecommerce-theme
 Description: eCommerce Plus, multipurpose responsive WordPress theme ideal for personal, corporate, blog, shop, storefront, portfolio and any eCommerce business need. The theme has post slider, Woo Commerce product slider, product grid, product category list widgets, wish list and product compare options. The theme is beautifully crafted, clean, easy to use, responsive, built in front page with many design options and customization. Novice users can create home page by using home page template and edit sections in customizer. You can design professional quality websites without advanced knowledge.
-Version: 1.3.8
+Version: 1.3.9
 Requires PHP: 5.6
 Tested up to: 5.8
 License: GNU General Public License v3 or later
@@ -936,7 +936,6 @@ h1.site-title {
 	font-size: 18px;
     display: block;
     text-decoration: none;
-	color: black;
 }
 .main-navigation ul ul {
 	float: left;
@@ -4422,6 +4421,7 @@ a.category-menu::before {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 14px;
+	color: initial;
 }
 
 .product-navigation > ul {
@@ -5061,8 +5061,8 @@ select.woo-product-search-select:focus {
 }
 
 #masthead.header-transparent {
-	background-color:transparent;
-	position:absolute;
+	background-color: #0000001f;
+	position: absolute;
 }
 
 #masthead.header-transparent .top_bar_wrapper {
@@ -5743,4 +5743,13 @@ select.woo-product-search-select:focus {
 
 .topcorner .amount-cart {
 	display:none;
+}
+
+.boxed-layout .header-icon-container {
+	float:left;
+} 
+
+#top-social-right .fa.fa-facebook::before {
+    content: "\f09a";
+    font-family: fontawesome;
 }
